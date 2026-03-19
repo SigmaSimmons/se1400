@@ -61,7 +61,7 @@ h3{
 main{
     padding-left: 2rem;
     padding-right: 2rem;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 #homehero{
     height: 300px;
@@ -90,10 +90,13 @@ main{
 nav a {
      text-decoration: none; 
      padding: 1rem 0rem;
-     color: #BA1C21;
+     color: #ffffff;
      display:block;
      text-align: center;
 
+}
+nav a:hover {
+    background-color: #BA1C21;
 }
 header {
     grid-row: 1 / 2;
@@ -117,6 +120,7 @@ footer {
 }
 main img {
     padding-left: 2rem;
+    float:right;
 }
 nav ul {
   margin: 0px;
