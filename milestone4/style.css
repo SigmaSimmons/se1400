@@ -10,3 +10,7 @@ grid-row-gap: 0px;
 .div2 { grid-area: 6 / 2 / 10 / 3; }
 .div3 { grid-area: 6 / 4 / 10 / 5; }
 .div4 { grid-area: 6 / 6 / 10 / 7; }
+
+g  {
+  grid-template-columns:minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
